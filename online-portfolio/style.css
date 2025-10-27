@@ -1,3 +1,73 @@
+body {
+    background-color: #fffaeb;
+    font-family:
+        Special Gothic,
+        sans-serif;
+}
+h1 {
+    font-weight: 5;
+    color: #72553e;
+    font-size: 60px;
+}
+h2 {
+    font-weight: 500;
+    color: #618951;
+    font-size: 40px;
+}
+#title {
+    margin-top: auto;
+    margin-bottom: 20px;
+    padding-left: 8%;
+    padding-top: 40px;
+}
+button {
+    margin-top: 60px;
+    background-color: #b9cb88;
+    color: #72553e;
+    margin-left: auto;
+    text-align: center;
+    width: 130px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+}
+button:hover {
+    background-color: #618951;
+    color: #fffaeb;
+}
+#nav {
+    background-color: #72553e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+    text-align: center;
+    color: #fffaeb;
+}
+#info {
+    margin-left: 4%;
+}
+#eduinfo {
+    margin-left: 5%;
+}
 img {
-    width: 100%;
+    width: 250px;
+    border-radius: 20px;
+    border: 6px solid #b888b5;
+    margin-top: 25px;
+}
+p {
+    color: #b888b5;
+}
+h4 {
+    color: #72553e;
+    margin-bottom: 20px;
+}
+h5 {
+    color: #618951;
+}
+ul {
+    color: #618951;
+    font-weight: 500;
 }
