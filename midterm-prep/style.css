@@ -1,0 +1,28 @@
+@media screen {
+    body {
+        font-family: Arial, sans-serif;
+    }
+    img {
+        width: 300px;
+    }
+    a {
+        font-size: 20px;
+        color: #000000;
+        font-weight: bold;
+    }
+    a:hover {
+        color: red;
+    }
+    #info {
+        width: 700px;
+        margin: auto;
+    }
+    #headshot {
+        float: left;
+    }
+    #footer {
+        position: fixed;
+        bottom:0;
+        background-color:burlywood;
+    }
+}
