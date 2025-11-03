@@ -44,6 +44,14 @@ button:hover {
     padding-top: 5px;
     text-align: center;
     color: #fffaeb;
+    width: 100%;
+}
+a {
+    color: #fffaeb;
+    text-decoration: none;
+}
+a:hover {
+    color: #b9cb88;
 }
 #info {
     margin-left: 4%;
@@ -70,4 +78,87 @@ h5 {
 ul {
     color: #618951;
     font-weight: 500;
+}
+@media (min-width: 100px) {
+    #title {
+        text-align: center;
+    }
+     h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    img {
+        width: 300px;
+        margin-left: 70px;
+    }
+}
+/*small*/
+@media (min-width: 576px) {
+    #title {
+        text-align: left;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    img {
+        width: 300px;
+        margin-left: 1px;
+    }
+}
+
+/*medium*/
+@media (min-width: 768px) {
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+/*large*/
+@media (min-width: 992px) {
+     h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+/*xlarge*/
+@media (min-width: 1200px) {
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+/*xxlarge*/
+@media (min-width: 1400px) {
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    img {
+        width: 300px;
+    }
 }
