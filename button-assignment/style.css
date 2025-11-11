@@ -1,7 +1,38 @@
-.red-button {
-    background-color: red;
-    color: white;
+/*
+MY COLOR PALETTE
+Color 1 - #fffaeb
+Color 2 - #72553e
+Color 3 - #618951
+Color 4 - #b9cb88
+Color 5 - #b888b5
+*/
+body{
+    background-color: #fffaeb;
+    font-family: Special Gothic, sans-serif;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-weight: 100;
+    margin-left: auto;
+    margin-right: auto;
+}
+button {
+    background-color: #b9cb88;
+    font-family: Special Gothic, sans-serif;
+    color: #72553e;
     font-size: 30px;
     border: none;
     width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+    background-color: #618951;
 }
