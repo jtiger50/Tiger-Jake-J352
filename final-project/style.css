@@ -193,9 +193,7 @@
     }
     
     #curry-chart {
-        margin-left: -17%;
-        margin-right: -17%;
-        max-width: 1000px;
+        width: 100%;
     }
     
     .video {
@@ -218,9 +216,11 @@
 }
 
 @media (min-width: 100px) {
+    
 }
 /*small*/
 @media (min-width: 576px) {
+
 }
 
 /*medium*/
