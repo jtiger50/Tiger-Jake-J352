@@ -187,15 +187,24 @@
     }
 
     iframe {
-        width: 100%;
-        height: 300px;
         border-radius: 30px;
-        margin-top: 10px;
-        margin-bottom: 10px;
         border: solid 4px #2ebc65;
         box-shadow: -7px 7px black, -5px 5px black, -2px 2px black;
     }
-
+    
+    #curry-chart {
+        margin-left: -15%;
+        margin-right: -15%;
+        max-width: 1000px;
+    }
+    
+    .video {
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
     li {
         font-family:
             Times New Roman,
